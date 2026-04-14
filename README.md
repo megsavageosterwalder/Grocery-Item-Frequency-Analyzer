@@ -42,7 +42,6 @@ Users can:
 ---
 
 ## 📂 Project Structure
-.
 ├── main.cpp
 ├── GroceryTracker.cpp
 ├── GroceryTracker.h
