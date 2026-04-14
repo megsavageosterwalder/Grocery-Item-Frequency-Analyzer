@@ -42,11 +42,12 @@ Users can:
 ---
 
 ## 📂 Project Structure
-├── main.cpp                # Entry point and menu logic
-├── GroceryTracker.cpp      # Core functionality
-├── GroceryTracker.h       # Class definition
-├── CS210_Project_Three_Input_File.txt  # Input data file
-└── frequency.dat          # Output file with item counts
+.
+├── main.cpp
+├── GroceryTracker.cpp
+├── GroceryTracker.h
+├── CS210_Project_Three_Input_File.txt
+└── frequency.dat
 
 ---
 
@@ -63,15 +64,15 @@ Users can:
 
 ---
 
-📊 How It Works
-	1.	Reads grocery items from a text file (one item per line)
-	2.	Converts all items to lowercase for consistent counting
-	3.	Stores item frequencies using a std::map
-	4.	Provides a menu with options to:
-	•	Search for an item
-	•	Display all frequencies
-	•	Show a histogram
-	•	Exit the program
+## 📊 How It Works
+1. Reads grocery items from a text file (one item per line)
+2. Converts all items to lowercase for consistent counting
+3. Stores item frequencies using a `std::map`
+4. Provides menu options to:
+   - Search for an item
+   - Display all frequencies
+   - Show a histogram
+   - Exit the program
 
 ⸻
 
