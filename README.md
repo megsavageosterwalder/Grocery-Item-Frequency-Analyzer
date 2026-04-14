@@ -30,7 +30,7 @@ How It Works
 
 How to Run
 	1.	Clone the repository:
-git clone https://github.com/YOUR-USERNAME/grocery-item-frequency-analyzer.git
+git clone https://github.com/megsavageosterwalder/grocery-item-frequency-analyzer.git
 	2.	Navigate to the project folder:
 cd grocery-item-frequency-analyzer
 	3.	Compile the program:
