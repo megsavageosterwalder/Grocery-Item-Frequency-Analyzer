@@ -1,64 +1,95 @@
-Grocery Item Frequency Analyzer (C++)
+# 🛒 Grocery Item Frequency Analyzer
 
-Overview
+A C++ application that reads grocery item data and analyzes how frequently each item appears using file input and data structures.
 
-This project is a C++ application that reads grocery item data from a text file, analyzes how frequently each item appears, and provides multiple ways to display the results. The program uses a menu-driven interface to allow users to search for specific items, view all item counts, and display a histogram.
+---
 
-Features
-	•	Read grocery data from an input file
-	•	Count item frequency using std::map
-	•	Search for a specific item (case-insensitive)
-	•	Display all item counts
-	•	Generate a text-based histogram
-	•	Output results to a backup file (frequency.dat)
+## 📌 Overview
+This project reads grocery item data from a text file, analyzes item frequency, and provides multiple ways to display the results. The program uses a menu-driven interface to allow users to interact with the data.
 
-Technologies Used
-	•	C++
-	•	Object-Oriented Programming (OOP)
-	•	STL (std::map)
-	•	File Input/Output
+Users can:
+- Search for specific items (case-insensitive)
+- View all item frequencies
+- Display a histogram of item counts
 
-How It Works
-	1.	The program reads a text file containing grocery items (one item per line)
-	2.	Each item is normalized to lowercase for consistent counting
-	3.	A std::map stores each item and its frequency
-	4.	Users interact with the program through a menu:
-	•	Option 1: Search for a specific item
-	•	Option 2: Display all item frequencies
-	•	Option 3: Display a histogram
-	•	Option 4: Exit the program
+---
 
-How to Run
-	1.	Clone the repository:
-git clone https://github.com/megsavageosterwalder/grocery-item-frequency-analyzer.git
-	2.	Navigate to the project folder:
-cd grocery-item-frequency-analyzer
-	3.	Compile the program:
-g++ main.cpp GroceryTracker.cpp -o GroceryTracker
-	4.	Run the program:
-./GroceryTracker
+## 🚀 Features
+- Read grocery data from an input file
+- Count item frequency using `std::map`
+- Case-insensitive item searching
+- Display all item counts
+- Generate a text-based histogram
+- Output results to a backup file (`frequency.dat`)
 
-File Structure
-	•	main.cpp – Entry point and menu logic
-	•	GroceryTracker.cpp – Core functionality
-	•	GroceryTracker.h – Class definition
-	•	CS210_Project_Three_Input_File.txt – Input data file
-	•	frequency.dat – Output file with item counts
+---
 
-Example Output
+## 🛠️ Technologies Used
+- **C++**
+- Object-Oriented Programming (OOP)
+- Standard Template Library (STL - `std::map`)
+- File Input/Output
 
-The program allows users to:
-	•	Search for individual grocery items
-	•	View a full list of item frequencies
-	•	Display a histogram representing item counts
+---
 
-Future Improvements
-	•	Add sorting (e.g., most frequent items first)
+## 🧠 Concepts Demonstrated
+- Modular programming
+- Functions and control structures (loops, conditionals)
+- Data structures (`std::map`)
+- File handling (input/output)
+- User interaction through menus
+
+---
+
+## 📂 Project Structure
+├── main.cpp                # Entry point and menu logic
+├── GroceryTracker.cpp      # Core functionality
+├── GroceryTracker.h       # Class definition
+├── CS210_Project_Three_Input_File.txt  # Input data file
+└── frequency.dat          # Output file with item counts
+
+---
+
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/megsavageosterwalder/grocery-item-frequency-analyzer.git
+2.	Navigate to the project folder:
+   cd grocery-item-frequency-analyzer
+3.	Compile the program:
+   g++ main.cpp GroceryTracker.cpp -o GroceryTracker
+4.	Run the program:
+   ./GroceryTracker
+
+---
+
+📊 How It Works
+	1.	Reads grocery items from a text file (one item per line)
+	2.	Converts all items to lowercase for consistent counting
+	3.	Stores item frequencies using a std::map
+	4.	Provides a menu with options to:
+	•	Search for an item
+	•	Display all frequencies
+	•	Show a histogram
+	•	Exit the program
+
+⸻
+
+📈 Future Enhancements
+	•	Sort items by frequency (highest to lowest)
 	•	Improve user interface
 	•	Support additional file formats
+	•	Add data visualization
 
-Author
+⸻
+
+👩‍💻 Author
 
 Meg Savage-Osterwalder
-Southern New Hampshire University
-Computer Science Program
+Computer Science Student | Aspiring Software Engineer
+
+⸻
+
+⭐ Notes
+
+This project was completed as part of SNHU coursework and demonstrates practical use of data structures and file handling in C++.
