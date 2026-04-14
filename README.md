@@ -60,3 +60,5 @@ Future Improvements
 Author
 
 Meg Savage-Osterwalder
+Southern New Hampshire University
+Computer Science Program
